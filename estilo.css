@@ -1,0 +1,51 @@
+
+body{
+	background-color: black;
+}
+
+h1,h3,h4,p{
+	text-align: center;
+}
+
+.areacentral
+{
+	background-color: grey;
+	margin-bottom: 3px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	padding: 100px;
+}
+
+.areaprincipal
+{
+	background-color: #F5F5F5;
+	margin-bottom: 3px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	padding: 50px;
+}
+
+.areaimagens
+{
+	background-color: white;;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	padding: 20px;
+}
+
+
+.menu
+{
+	padding: 5px;
+	margin-left: 10px;
+	background-color: black;
+	color: white;
+}
+
+.rodape
+{
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+	padding: 3px;
+}
