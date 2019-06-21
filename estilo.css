@@ -1,4 +1,4 @@
-
+/*
 body{
 	background-color: black;
 }
@@ -17,14 +17,15 @@ h1,h3,h4,p{
 {
 	background-color: grey;
 	margin-bottom: 3px;
-	padding: 100px;
+	padding: 50px;
+
 }
 
 .areaprincipal
 {
 	background-color: #F5F5F5;
 	margin-bottom: 3px;
-	padding: 50px;
+	padding: 10px;
 }
 
 .rodape
@@ -34,3 +35,6 @@ h1,h3,h4,p{
 	margin-top: 20px;
 	padding: 3px;
 }
+*/
+
+.form-control{min-width:700px;}
