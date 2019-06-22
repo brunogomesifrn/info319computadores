@@ -1,0 +1,9 @@
+.form-control{min-width:700px;}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+}
