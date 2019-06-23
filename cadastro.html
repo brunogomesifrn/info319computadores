@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Página para cadastro</title>
-        <meta charset="utf-8">
-    </head>
+<head>
     
-    <body>
-        <form>
-Nome do usuário<input type="text">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="est_cad.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+<!------------------------------------------------------->
+<div class="menu_top">
+	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-danger">
+		<div class="container">
+			<a class="navbar-brand h1 mb-0 mr-2" href="index.html"> Three Tech
+            </a>
+        </div>
+	</nav>     
+</div>
+<!------------------------------------------------------->
+    <div class="m-3 col-6">   
+        <h2>Área de cadastro</h2>
+    </div>
+    
+    <div class="container-fluid">
+    <div class="row">
+  
+    <form>
+  
+        <div class="form-group col-md-6 offset-2">
+            <label for="exampleInputName">Nome</label>
+            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Seu nome" required="required">
+        </div>
+    
+        <div class="form-group col-md-8 offset-2">
+            <label for="exampleInputEmail1">Endereço de Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required="required">
+            <small id="emailHelp" class="form-text text-muted" >Nós nunca irémos compartilhar seu endereço de email</small>
+        </div>
+        
+        <div class="form-group col-md-8 offset-2">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite a senha" required="required">
+        </div>
+        
+        <div class="form-group col-md-8 offset-2">
+            <label for="exampleInputPassword1">Confirmação de senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite a senha novamente" required="required">
+        </div>
+        
+        <button type="submit" class="btn btn-success offset-5 col-sm-2">Criar uma conta
+        </button>
     </form>
-    </body>
+        </div>
+          
+</div>
+<!------------------------------------------------------->
+    <div class="footer">
+        FOOTER
+    </div>
+</body>
 </html>
