@@ -23,3 +23,18 @@
 .container {
   padding: 2px 16px;
 }
+
+.colorrodape
+{
+	background-color: black;
+	padding: 50px;
+
+}
+
+.nome{
+    text-align: center;
+}
+
+#form{
+    align-items: center;
+}
