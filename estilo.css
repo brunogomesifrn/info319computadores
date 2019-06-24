@@ -11,10 +11,35 @@
 
 }
 
-.pesquisartam{min-width:500px;}
+.margemconteudo{
+
+	margin-top: 80px;
 }
 
-.link
-{ 
-text-decoration:none; 
+.pesquisartam{min-width:200px;}
+
+
+a{
+	text-decoration: none;
+	
+}
+
+a:link{
+	color: red;
+}
+
+a:hover{
+	color: red;
+}
+
+a:visited
+{
+	color: red;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }

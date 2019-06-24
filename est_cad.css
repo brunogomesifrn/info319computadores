@@ -1,5 +1,7 @@
 .form-control{min-width:700px;}
 
+.pesquisartam{min-width:200px;}
+
 .footer {
     position:absolute;
     bottom:0;
@@ -31,10 +33,11 @@
 
 }
 
-.nome{
-    text-align: center;
+.margemconteudo{
+
+  margin-top: 80px;
 }
 
-#form{
-    align-items: center;
+.nome{
+    text-align: center;
 }
