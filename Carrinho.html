@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="est_cad.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -41,7 +41,85 @@
 
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid margemconteudo">
 
+        <div class="row mb-3 my-3 pl-3">
+
+            <div class="col-8">
+
+                <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col"> Item</th>
+                          <th scope="col">Preço</th>
+                          <th scope="col">Quantidade</th>
+                          <th scope="col">Subtotal</th>
+                          <th scope="col">Excluir</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><img src="comp3.jpg" style="width: 6rem;">Lorem Ipsum is simply dummy text</td>
+                          <td>RS960,50</td>
+                          <td><input type="number" min="1" size="1" name=""></td>
+                          <td> RS960,50</td>
+                          <td><button type="button" class="btn btn-danger">X</button></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4"><a href="index.html">↰ Continuar comprando</a> </td>
+                        </tr>
+                        
+                      </tbody>
+                </table>
+                
+            </div>
+
+            <div class="col-4">
+                
+                <div class="corcarrinho pl-2 pt-3 pb-3 mb-3 border">
+                    <p>Consulte o frete e prazos de entrega</p>
+                    <form>
+                        <input type="text" name="cep">
+                        <button type="submit" class="btn btn-success">Pesquisar</button>
+                    </form>
+                     <form>
+                      <input type="radio" name="cepinternacional"> Frete intenacional 
+                    </form>
+                </div>
+
+                <div class="corcarrinho pl-2 pt-3 border">
+                    <h6>Subtotal  R$</h6>
+                </div>
+
+                <div class="pl-2 pt-3 border">
+                   <h4>Total  R$</h4>
+                </div>
+
+                 <div class="corcarrinho pl-2 pt-3 border">
+                    <p class="text-center">10x de R$189,66<br/>
+                      sem juros no cartão
+                      <br/>
+                      à vista R$1.668,98<br/>no boleto com 12% de desconto</p>
+                </div>
+
+        </div> <!-- fim do container central-->
         
+    </div> <!-- fim do container fluid  -->
+
+    <div class="colorrodape fixed-bottom">
+      <footer class="text-muted">
+          <div class="container">
+            <p class="float-right">
+              <a href="#">Voltar ao topo</a>
+            </p>
+            <p>Este exemplo de álbum é &copy; Bootstrap, mas, por favor, baixe e customize por conta própria.</p>
+          </div>
+      </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

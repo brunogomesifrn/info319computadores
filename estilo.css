@@ -11,13 +11,25 @@
 
 }
 
+.cortabelameio
+{
+	background-color: grey; 
+}
 .margemconteudo{
 
 	margin-top: 80px;
 }
 
+.verde{
+	text-decoration-color: green;
+}
+
 .pesquisartam{min-width:200px;}
 
+.corcarrinho
+{
+	background-color: #F5F5F5;
+}
 
 a{
 	text-decoration: none;
@@ -25,7 +37,7 @@ a{
 }
 
 a:link{
-	color: red;
+	color: black;
 }
 
 a:hover{
