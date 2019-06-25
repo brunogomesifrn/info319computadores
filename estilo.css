@@ -11,9 +11,17 @@
 
 }
 
+.cortabelameio
+{
+	background-color: grey; 
+}
 .margemconteudo{
 
 	margin-top: 80px;
+}
+
+.verde{
+	text-decoration-color: green;
 }
 
 .pesquisartam{min-width:200px;}

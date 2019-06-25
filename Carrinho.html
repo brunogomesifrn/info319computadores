@@ -45,7 +45,7 @@
 
         <div class="row mb-3 my-3 pl-3">
 
-            <div class="col-6">
+            <div class="col-8">
 
                 <table class="table">
                       <thead>
@@ -54,18 +54,20 @@
                           <th scope="col">Preço</th>
                           <th scope="col">Quantidad</th>
                           <th scope="col">Subtotal</th>
+                          <th scope="col">Excluir</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td><img src="comp3.jpg"></td>
+                          <td><img src="comp3.jpg" style="width: 6rem;">Lorem Ipsum is simply dummy text</td>
                           <td>RS960,50</td>
-                          <td>1</td>
+                          <td><input type="number" min="1" size="1" name=""></td>
                           <td> RS960,50</td>
+                          <td><button type="button" class="btn btn-danger">X</button></td>
                         </tr>
 
                         <tr>
-                            <td colspan="4">Adicionar mais produtos</td>
+                            <td colspan="4"><a href="index.html">Adicionar mais produtos</a> </td>
                         </tr>
                         
                       </tbody>
@@ -73,17 +75,33 @@
                 
             </div>
 
-            <div class="col-6">
+            <div class="col-4">
                 
-                <div class="corcarrinho pl-2 pt-3 pb-3">
+                <div class="corcarrinho pl-2 pt-3 pb-3 mb-3 border">
                     <p>Consulte o frete e prazos de entrega</p>
                     <form>
                         <input type="text" name="cep">
                         <button type="submit" class="btn btn-success">Pesquisar</button>
                     </form>
+                     <form>
+                      <input type="radio" name="cepinternacional"> Frete intenacional 
+                    </form>
                 </div>
 
-            </div>
+                <div class="corcarrinho pl-2 pt-3 border">
+                    <h6>Subtotal  R$</h6>
+                </div>
+
+                <div class="pl-2 pt-3 border">
+                   <h4>Total  R$</h4>
+                </div>
+
+                 <div class="corcarrinho pl-2 pt-3 border">
+                    <p class="text-center">10x de R$189,66<br/>
+                      sem juros no cartão
+                      <br/>
+                      à vista R$1.668,98<br/>no boleto com 12% de desconto</p>
+                </div>
 
         </div> <!-- fim do container central-->
         
