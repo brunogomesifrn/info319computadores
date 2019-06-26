@@ -1,4 +1,4 @@
-.form-control{min-width:700px;}
+.form-control-tam{min-width:70px;}
 
 .pesquisartam{min-width:200px;}
 
@@ -35,12 +35,19 @@
 
 .margemconteudo{
 
-  margin-top: 80px;
+    margin-top: 80px;
+}
+
+.margemcont{
+    margin-top: 80px;
+    margin-bottom: 30px;
+
 }
 
 .nome{
     text-align: center;
 }
+<<<<<<< HEAD
 
 .cardNome{
    
@@ -49,3 +56,6 @@
 .meuperfil {
  text-align: center;
 }
+=======
+.tamlogin{min-width:500px;}
+>>>>>>> bd4ec75eff68b9efdf84fff1c8a60d0cd686b978
