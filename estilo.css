@@ -11,25 +11,13 @@
 
 }
 
-.cortabelameio
-{
-	background-color: grey; 
-}
 .margemconteudo{
 
 	margin-top: 80px;
 }
 
-.verde{
-	text-decoration-color: green;
-}
-
 .pesquisartam{min-width:200px;}
 
-.corcarrinho
-{
-	background-color: #F5F5F5;
-}
 
 a{
 	text-decoration: none;
@@ -37,16 +25,16 @@ a{
 }
 
 a:link{
-	color: black;
+	color: red;
 }
 
 a:hover{
-	color: red;
+	text-decoration: none;
 }
 
 a:visited
 {
-	color: red;
+	color: black;
 }
 
 
@@ -54,9 +42,4 @@ a:visited
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-}
-
-.cor {
-	background-color: red;
-
 }
