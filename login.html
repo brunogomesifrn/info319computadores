@@ -7,16 +7,16 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="est_cad.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger mb-2">
 
-        <a class="navbar-brand h1 mb-0 mr-5 ml-5" href="index.html">Pull&Push</a>
+        <a class="navbar-brand h1 mb-0 mr-5 ml-5" href="index.html"><i class="fab fa-pushed"></i> Pull&Push </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
           <form class="form-inline">
-                <input class="form-control ml-5 mr-2    pesquisartam" type="search" placeholder="Buscar..." />
+                <input class="form-control ml-5 mr-2 pesquisartam" type="search" placeholder="Buscar..." />
                 <button class="btn btn-dark" type="Submit">OK</button>
           </form>
 
@@ -33,34 +33,65 @@
 
     </nav>
 
-    <div class="container-fluid margemconteudo">
+    <div class="container-fluid">
 
-        <div class="row mb-3 my-3 pl-3">
+        <div class="row colormeio">
 
-          <div class="col-6">
+          <div class="col-6 card p-3">
           <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">E-mail do Usuário:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o e-mail">
-    <small id="emailHelp" class="form-text text-muted"></small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Senha:</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-  </div>
-  <div class="form-group form-check">
-  </div>
-  <button type="submit" class="btn btn-primary">Entrar</button>
-</form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E-mail do Usuário:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o e-mail">
+              <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+            <div class="form-group form-check">
+            </div>
+            <button type="button" class="btn btn-dark">Entrar </button>
+          </form>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 p-5">
 
           <h6>Ainda não tenho cadastro</h6>
-          <p>Para comprar em nosso site é preciso realizar um cadastro. Através dele você fará parte do Programa de Fidelidade Saraiva Plus. E também ficará por dentro das novidades, ofertas e promoções.</p>
+          <p>Para comprar em nosso site é preciso realizar um cadastro. Através dele você fará parte do Programa de Fidelidade e também ficará por dentro das novidades, ofertas e promoções.</p>
           <button type="button" class="btn btn-outline-danger">Cadastrar</button>
         </div>  
 
         </div>
 
     </div>
+
+    <div class="colorrodape">
+      <footer class="text-muted">
+        <div class="container">
+          <p class="float-right">
+
+          <a href="#" class="card-link btn btn-outline" role="button"><i class="fas fa-arrow-circle-up fa-2x"></i><br/>Voltar ao topo</a>
+
+           <div class="row">
+            
+           
+           <div class="col-3">
+            <p>Este site foi desenvolvido por <br/> Lucylady Chrystina <br/> Raquel Silva e Silva <br/> Rafael Grilo Salina &copy; 
+           </div>
+
+          <div class="col-4">
+              Principais bandeiras<br/>
+            <i class="fab fa-cc-visa fa-2x"></i>
+            <i class="fab fa-cc-mastercard fa-2x"></i>
+            <i class="fab fa-cc-paypal fa-2x"></i>
+
+        </div>
+
+        </div>
+
+        </div>
+
+      </footer>
+  </div>
+  </body>
+  </html>
