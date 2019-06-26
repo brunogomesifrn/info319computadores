@@ -7,18 +7,20 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" href="est_cad.css">
+        <link rel="stylesheet" type="text/css" href="CSSEXTERNO/est_cad.css">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+        <title>Pull&Push</title>
 
     </head>
     
 <!------------------------------------------------------->
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger mb-2">
 
-        <a class="navbar-brand h1 mb-0 mr-5 ml-5" href="index.html">Three Tuch</a>
+        <a class="navbar-brand h1 mb-0 mr-5 ml-5" href="cadastrado.html"><i class="fab fa-pushed"></i> Pull&Push </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,9 +34,18 @@
           </form>
 
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user mr-2"></i>Olá, Raquel!
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="cadastrado.html">Início</a>
+                  <a class="dropdown-item" href="index.html">Sair</a>
+                  <a class="dropdown-item" href="Configuracoes.html">Configurações</a>
+                </div>
+            </li>
 
             <li class="nav-item">
-                <a class="nav-link ml-1 mr-1" href="#"><i class="fas fa-user-circle  mr-2"></i>Entrar</a>
+                <a class="nav-link ml-1" href="carrinhouser.html"><i class="fas fa-cart-plus fa-2x mr-2"></i></a>
             </li>
 
           </ul>
@@ -43,7 +54,7 @@
 
     </nav>
 <!------------------------------------------------------->
-<div class="container-fluid margemconteudo">
+<div class="container-fluid margemconteudo pad">
     <div class="row m-5">
         
       <div class="col-sm-4">
@@ -70,7 +81,7 @@
         <div class="card border-danger">
           <div class="card-body">
             <h5 class="card-title">Meus Pedidos</h5>
-            <p class="card-text">Entre aqui caso queira conferir pedidos recentes ou passados.</p>
+            <p class="card-text">Entre aqui caso queira conferir os seus pedidos.</p>
             <a href="#" class="btn btn-danger">Entrar</a>
           </div>
         </div>
@@ -117,14 +128,32 @@
     
     <div class="colorrodape">
       <footer class="text-muted">
-	      <div class="container">
-	        <p class="float-right">
-	          <a href="#">Voltar ao topo</a>
-	        </p>
-	        <p>Este exemplo de álbum é &copy; Bootstrap, mas, por favor, baixe e customize por conta própria.</p>
-	        <p>Novo no Bootstrap? <a href="../../">Visite a página principal</a> ou leia nosso guia <a href="../../getting-started/">getting started</a>.</p>
-	      </div>
+        <div class="container">
+          <p class="float-right">
+
+          <a href="#" class="card-link btn btn-outline" role="button"><i class="fas fa-arrow-circle-up fa-2x"></i><br/>Voltar ao topo</a></p>
+
+           <div class="row">
+            
+           
+           <div class="col-3">
+            <p>Este site foi desenvolvido por <br/> Lucylady Chrystina <br/> Raquel Silva e Silva <br/> Rafael Grilo Salina &copy; 
+           </div>
+
+          <div class="col-4">
+              Principais bandeiras<br/>
+            <i class="fab fa-cc-visa fa-2x"></i>
+            <i class="fab fa-cc-mastercard fa-2x"></i>
+            <i class="fab fa-cc-paypal fa-2x"></i>
+
+        </div>
+
+      </div>
+
+      </div>
+
       </footer>
-	</div>
+    </div>
+
 </body>
 </html>
