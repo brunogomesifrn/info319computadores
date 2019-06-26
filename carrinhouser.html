@@ -43,22 +43,68 @@
 
     <div class="container-fluid margemconteudo">
 
-        <div class="row colormeio">
+        <div class="row mb-3 my-3 pl-3">
 
-          <div class="col-3">
-            
-              <i class="fas fa-shopping-cart fa-7x"></i>
+            <div class="col-8">
 
-          </div>
+                <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col"> Item</th>
+                          <th scope="col">Preço</th>
+                          <th scope="col">Quantidade</th>
+                          <th scope="col">Subtotal</th>
+                          <th scope="col">Excluir</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><img src="placa1.jpg" style="width: 6rem;"><br/>PLACA DE VIDEO ASUS GEFORCE GTX 1660 6GB GDDR5 TUF OC 192-BIT, TUF-GTX1660-O6G-GAMING </td>
+                          <td>RS960,50</td>
+                          <td><input type="number" min="1" size="1px" name=""></td>
+                          <td> RS960,50</td>
+                          <td><button type="button" class="btn btn-danger">X</button></td>
+                        </tr>
 
-          <div class="col-9">
-            
-              <h2>Seu carrinho está vazio!</h2>
-              <p> Acesse a <a href="index.html">Página inicial</a> para encontrar o produto que deseja.<br />Após escolher clique no botão "Carrinho"</p>
+                        <tr>
+                            <td colspan="4"><a href="index.html">↰ Continuar comprando</a> </td>
+                        </tr>
+                        
+                      </tbody>
+                </table>
+                
+            </div>
 
-          </div>
+            <div class="col-4">
+                
+                <div class="corcarrinho pl-2 pt-3 pb-3 mb-3 border">
+                    <p>Consulte o frete e prazos de entrega</p>
+                    <form>
+                        <input type="text" name="cep">
+                        <button type="submit" class="btn btn-success">Pesquisar</button>
+                    </form>
+                     <form>
+                      <input type="checkbox" name="cepinternacional"> Frete intenacional 
+                    </form>
+                </div>
 
-        </div>
+                <div class="corcarrinho pl-2 pt-3 border">
+                    <h6>Subtotal  R$</h6>
+                </div>
+
+                <div class="pl-2 pt-3 border">
+                   <h4 class="vermelho">Total  R$</h4>
+                </div>
+
+                 <div class="corcarrinho pl-2 pt-3 border">
+                    <p class="text-center">10x de R$189,66<br/>
+                      sem juros no cartão
+                      <br/>
+                      à vista R$1.668,98<br/>no boleto com 12% de desconto</p>
+                </div>
+
+            </div> <!-- fim do container central-->
+    </div>
 
     </div> <!-- fim do container fluid  -->
     <div class="colorrodape">

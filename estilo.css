@@ -4,6 +4,11 @@
 	padding: 50px;
 }
 
+.colormeio
+{
+	background-color: #F5F5F5;
+	padding: 150px;
+}
 .colorrodape
 {
 	background-color: black;
@@ -11,6 +16,10 @@
 
 }
 
+.corcarrinho
+{
+	background-color: #F5F5F5;
+}
 .margemconteudo{
 
 	margin-top: 80px;
@@ -25,21 +34,18 @@ a{
 }
 
 a:link{
-	color: red;
+	text-decoration: none;
 }
 
 a:hover{
-<<<<<<< HEAD
-	color: black;
-=======
 	text-decoration: none;
->>>>>>> 0346ba0b30a082e4fe9b4e370c72afadf7596617
 }
 
 a:visited
 {
-	color: black;
+	text-decoration: none;
 }
+
 
 .vermelho{
 	color: red;
