@@ -34,9 +34,18 @@ a:hover{
 
 a:visited
 {
-	color: black;
+	color: red;
 }
 
+.vermelho{
+	color: red;
+}
+.verde{
+	color: green;
+}
+.preto{
+	color: black;
+}
 
 .card {
   /* Add shadows to create the "card" effect */
